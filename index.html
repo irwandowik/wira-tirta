@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasa Kontraktor Kolam Renang Profesional</title>
+  <meta name="description" content="Spesialis kontraktor kolam renang terpercaya. Desain, pembuatan, renovasi, dan perawatan kolam renang dengan kualitas terbaik.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Style cepat (bisa dipisah ke style.css) */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #0077b6, #00b4d8);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('kolam.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0077b6;
+    }
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #90e0ef;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kontraktor Kolam Renang Profesional</h1>
+    <p>Desain • Pembuatan • Renovasi • Perawatan</p>
+    <nav>
+      <a href="#layanan">Layanan</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Buat Kolam Renang Impian Anda Bersama Kami</h1>
+    <p>Kualitas premium, harga bersahabat, dan garansi kepuasan.</p>
+  </section>
+
+  <section id="layanan" class="container">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Desain Kolam Renang</h3>
+        <p>Kami membantu mewujudkan desain kolam renang modern, minimalis, atau klasik sesuai keinginan Anda.</p>
+      </div>
+      <div class="card">
+        <h3>Pembuatan Kolam</h3>
+        <p>Dikerjakan oleh tenaga ahli dengan material berkualitas tinggi agar kolam renang tahan lama.</p>
+      </div>
+      <div class="card">
+        <h3>Renovasi & Perawatan</h3>
+        <p>Perbaikan kebocoran, penggantian pompa, serta perawatan rutin untuk menjaga kualitas air.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="container">
+    <h2>Tentang Kami</h2>
+    <p>
+      Kami adalah kontraktor spesialis kolam renang dengan pengalaman lebih dari 10 tahun.
+      Telah dipercaya ratusan klien di seluruh Indonesia untuk membangun kolam renang impian.
+    </p>
+  </section>
+
+  <section id="kontak" class="container">
+    <h2>Hubungi Kami</h2>
+    <p>Ingin konsultasi atau tanya harga? Hubungi kami:</p>
+    <ul>
+      <li>📞 Telepon: <a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+      <li>📧 Email: <a href="mailto:info@kolamindah.com">info@kolamindah.com</a></li>
+      <li>📍 Lokasi: Jakarta, Indonesia</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kontraktor Kolam Renang | Dibuat dengan ❤️</p>
+  </footer>
+</body>
+</html>
